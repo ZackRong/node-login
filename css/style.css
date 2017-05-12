@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+.container{
+	width:300px;
+	margin:0 auto;
+	position: relative;
+}
+.title{
+	text-align: center;
+}
+.input{
+	width:260px;
+	height:30px;
+	margin:10px 20px;
+	outline:none;
+	border-radius: 10px;
+	border: #ccc solid 1px;
+	padding-left:10px;
+}
+.input:focus{
+	box-shadow:1px 0 10px 1px lightblue;
+}
+button{
+	width:50px;
+	height:30px;
+	color:white;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+}
+#login{
+	position:absolute;
+	right:10px;
+	background-color:green;
+}
+#updateCtr{
+	position: absolute;
+	right:70px;
+	background-color:lightblue;
+}
+#add{
+	position: absolute;
+	right:130px;
+	background-color:pink;
+}
+#del{
+	position: absolute;
+	right:190px;
+	background-color:red;
+}
+#updateBox{
+	display: none;
+}
+
+#back{
+	position:absolute;
+	right:10px;
+	background-color:grey;
+}
+#update{
+	position: absolute;
+	right:70px;
+	background-color:green;
+}
+#result{
+	text-align: center;
+	margin-top: 50px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta charset='utf-8'>
+<head><title>留言板</title></head>
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<body>
+	<div class = 'wrapper'>
+		<div class = 'container' id='container-1'>
+			<h2 class = 'title' id = 'title'>用户登录</h2>
+			<!-- 登陆页面 -->
+			<div id = 'inputBox'>
+				<div class = 'inputItem'>
+					<h4>用户名：</h4>
+					<input id='userName' placeholder='请输入用户名' class = 'input'></input>
+					<h4>密码：</h4>
+					<input id='password' type='password' placeholder='请输入密码' class = 'input'></input>
+				</div>
+				<button id="login">登录</button>
+				<button id="add">注册</button>
+				<button id="updateCtr">修改</button>
+				<button id="del">销毁</button>
+			</div>
+			<!-- 更新的页面 -->
+			<div id = 'updateBox'>
+				<div class = 'inputItem'>
+					<h4>用户名：</h4>
+					<input id='updateName' placeholder='请输入用户名' class = 'input'></input>
+					<h4>原密码：</h4>
+					<input id='oldPassword' type='password' placeholder='请输入原密码' class = 'input'></input>
+					<h4>新密码：</h4>
+					<input id='newPassword' type='password' placeholder='请输入新密码' class = 'input'></input>
+				</div>
+				<button id="update">更新</button>
+				<button id="back">返回</button>
+			</div>
+			<!-- 显示结果 -->
+			<h2 id = 'result'></h2>
+		</div>
+	</div>
+</body>
+<script type='text/javascript' src='js/request.js'></script>
+</html>
